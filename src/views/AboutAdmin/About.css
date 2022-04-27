@@ -1,0 +1,11 @@
+#main-content {
+    float: left;
+    width: 100%;
+    padding-left: 0;
+  }
+  @media screen and (max-width: 991px) and (min-width: 768px) {
+    #main-content {
+      padding-left: 50px;
+      padding-top: 50px;
+    }
+}

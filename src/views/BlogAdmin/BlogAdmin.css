@@ -1,0 +1,27 @@
+.box { 
+    display: flex; 
+  } 
+   
+  .content { 
+    width: 100%; 
+  } 
+   
+  thead { 
+    background: rgb(5, 138, 143); 
+    color: white; 
+  } 
+  tbody .td { 
+    text-align: justify; 
+  } 
+   
+  .blog h1 { 
+    display: block; 
+    text-align: center; 
+    margin-top: 250px; 
+    width: 100%; 
+  }
+  @media screen and (max-width: 991px) and (min-width: 768px) {
+    #main-content {
+      padding-left: 50px;
+    }
+    }
